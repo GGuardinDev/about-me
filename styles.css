@@ -28,6 +28,13 @@ div
     min-width: 100%;
 }
 
+#ni
+{
+    width: 30px;
+    height: 45px;
+    margin-right: 5vw;
+}
+
 }
 
 /* PC */
