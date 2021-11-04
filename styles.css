@@ -4,10 +4,42 @@
     margin: 0px;
 }
 
+/* First Mobile */
+@media screen and (max-width: 425px)
+{
+
+#header
+{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   background-color: #0b0b0b;
+   color: white;
+}
+
+div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#h1-zone
+{
+    min-width: 100%;
+}
+
+}
+
+/* PC */
+@media screen and (min-width: 800px)
+{
+
 #header
 {
     display: flex;
     height: 300px;
     border-style: solid;
     justify-content: space-between;
+}
+
 }
