@@ -1,0 +1,13 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header
+{
+    display: flex;
+    height: 300px;
+    border-style: solid;
+    justify-content: space-between;
+}
