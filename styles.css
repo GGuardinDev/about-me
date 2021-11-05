@@ -8,14 +8,40 @@
 @media screen and (max-width: 425px)
 {
 
+body
+{
+    overflow-x: hidden;
+}
+
 #header
 {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-   background-color: #0b0b0b;
    color: white;
    font-family: "Montserrat", serif;
+}
+
+nav
+{
+    position: fixed;
+    display: inline;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    height: 90vh;
+    text-align: center;
+    background-color: black;
+    right: -105vw;
+    top: 45px;
+}
+
+a
+{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    top: 40px;
 }
 
 #title
@@ -35,7 +61,7 @@ div
 #h1-zone
 {
     min-width: 100%;
-    margin-top: 10px;
+    background-color: #0b0b0b;
 }
 
 #ni
