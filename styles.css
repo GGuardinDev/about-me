@@ -89,7 +89,7 @@ a
 #about
 {
     font-family: "Lato", serif;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .p
@@ -110,7 +110,7 @@ a
 #knowledge
 {
     font-family: "Lato", serif;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 ul li
@@ -122,6 +122,49 @@ ul li
 ul
 {
     list-style: none;
+}
+
+#projects
+{
+    font-family: "Lato", serif;
+    margin-top: 30px;
+}
+
+#projects p
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#repositories-link
+{
+    color: black;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+
+#repositories-link:hover
+{
+    text-decoration: underline;
+}
+
+#contact
+{
+    font-family: "Lato", serif;
+}
+
+#contact h2
+{
+    margin-left: 9px;
+}
+
+.rsi
+{
+    width: 80px;
+    margin-left: 30px;
+    margin-top: 5px;
 }
 
 }
