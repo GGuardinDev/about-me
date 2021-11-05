@@ -13,7 +13,7 @@ class NavBar{
         if (this.isView == "false"){
 
             this.parentLink.style = "position: fixed;";
-            this.navLink.style = "transition: ease-out; transition-property: transform position top display height; transition-duration: 0.30s; transform: translateX(-105vw);"
+            this.navLink.style = "transition: ease-out; transition-property: transform position top display height; transition-duration: 0.35s; transform: translateX(-105vw);"
             this.isView = "true";
             console.log("Showing!!");
 
