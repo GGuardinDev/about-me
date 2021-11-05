@@ -13,14 +13,14 @@ class NavBar{
         if (this.isView == "false"){
 
             this.parentLink.style = "position: fixed;";
-            this.navLink.style = "transition: ease-out; transition-property: transform; transition-duration: 0.65s; transform: translateX(-105vw);"
+            this.navLink.style = "transition: ease-out; transition-property: transform position top display height; transition-duration: 0.30s; transform: translateX(-105vw);"
             this.isView = "true";
             console.log("Showing!!");
 
         } else {
 
-            this.parentLink.style = "position: sticky";
-            this.navLink.style = "transition: ease-in; transition-property: transform; transition-duration: 0.65s; transform: translateX(105vw);"
+            this.parentLink.style = "position: sticky; top: 0px;";
+            this.navLink.style = "transition: ease-in; transition-property: transform; transition-duration: 0.35s; transform: translateX(105vw);"
             this.isView = "false";
             console.log("Hidding!!");
 
