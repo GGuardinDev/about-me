@@ -30,8 +30,7 @@ body
 nav
 {
     position: fixed;
-    display: inline;
-    width: 100%;
+    width: 100vw;
     color: white;
     text-decoration: none;
     height: 100vh;
@@ -56,12 +55,6 @@ a
     margin-top: 16px;
 }
 
-div
-{
-    display: flex;
-    justify-content: space-between;
-}
-
 #h1-zone
 {
     position: sticky;
@@ -69,6 +62,8 @@ div
     min-width: 100%;
     background-color: #0b0b0b;
     height: 70px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #fondo
@@ -103,7 +98,7 @@ a
     margin: 0 auto;
     left: 0;
     right: 0;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .h2
@@ -112,9 +107,21 @@ a
     margin-top: 10px;
 }
 
+#knowledge
+{
+    font-family: "Lato", serif;
+    margin-top: 25px;
+}
+
 ul li
 {
     margin-left: 25px;
+    margin-top: 24px;
+}
+
+ul
+{
+    list-style: none;
 }
 
 }
