@@ -77,4 +77,4 @@ document.getElementById("contact-link").addEventListener("click", () => {
 })
 
 
-console.log("snapshot06")
+console.log("1.0.2")
