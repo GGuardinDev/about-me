@@ -38,7 +38,7 @@ nav
     text-align: center;
     background-color: black;
     right: -105vw;
-    top: 55px;
+    top: 65px;
 }
 
 a
@@ -46,7 +46,6 @@ a
     position: relative;
     text-decoration: none;
     color: white;
-    top: 40px;
 }
 
 #title
@@ -86,6 +85,12 @@ div
     margin-top: 12px;
 }
 
+a
+{
+    display: block;
+    margin-top: 45px;
+}
+
 #about
 {
     font-family: "Lato", serif;
@@ -101,9 +106,15 @@ div
     padding-top: 5px;
 }
 
-#h2-about
+.h2
 {
-    margin-left: 5px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+ul li
+{
+    margin-left: 25px;
 }
 
 }
