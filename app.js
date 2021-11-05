@@ -12,14 +12,14 @@ class NavBar{
 
         if (this.isView == "false"){
 
-            this.parentLink.style = "position: fixed;";
+            //this.parentLink.style = "position: fixed;";
             this.navLink.style = "transition: ease-out; transition-property: transform position top display height; transition-duration: 0.35s; transform: translateX(-105vw);"
             this.isView = "true";
             console.log("Showing!!");
 
         } else {
 
-            this.parentLink.style = "position: sticky; top: 0px;";
+            //this.parentLink.style = "position: sticky; top: 0px;";
             this.navLink.style = "transition: ease-in; transition-property: transform; transition-duration: 0.35s; transform: translateX(105vw);"
             this.isView = "false";
             console.log("Hidding!!");
@@ -28,11 +28,23 @@ class NavBar{
 
     }
 
+    hideNav(){
+
+        nav.navLink.style = "transition: ease-in; transition-property: transform; transition-duration: 0.35s; transform: translateX(105vw)"
+
+    }
+
 }
 
 //const navi = getElementById("nav");
 
 const nav = new NavBar();
+
+window.addEventListener("scroll", () => {
+
+    nav.hideNav();
+
+})
 
 document.getElementById("ni").addEventListener("click", () => {
 
