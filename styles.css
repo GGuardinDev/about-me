@@ -4,6 +4,11 @@
     margin: 0px;
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 /* First Mobile */
 @media screen and (max-width: 425px)
 {
@@ -15,11 +20,11 @@ body
 
 #header
 {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   color: white;
-   font-family: "Montserrat", serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    font-family: "Montserrat", serif;
 }
 
 nav
@@ -29,11 +34,11 @@ nav
     width: 100%;
     color: white;
     text-decoration: none;
-    height: 90vh;
+    height: 100vh;
     text-align: center;
     background-color: black;
     right: -105vw;
-    top: 45px;
+    top: 55px;
 }
 
 a
@@ -49,7 +54,7 @@ a
     margin-left: 10px;
     font-style: bold;
     font-size: 28px;
-    margin-top: 12px;
+    margin-top: 16px;
 }
 
 div
@@ -60,9 +65,17 @@ div
 
 #h1-zone
 {
+    position: sticky;
+    top: 0;
     min-width: 100%;
     background-color: #0b0b0b;
-    height: 60px;
+    height: 70px;
+}
+
+#fondo
+{
+    width: 100%;
+    height: 450px;
 }
 
 #ni
@@ -70,12 +83,27 @@ div
     width: 30px;
     height: 45px;
     margin-right: 5vw;
-    margin-top: 5px;
+    margin-top: 12px;
 }
 
 #about
 {
     font-family: "Lato", serif;
+    margin-top: 15px;
+}
+
+.p
+{
+    width: 90%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding-top: 5px;
+}
+
+#h2-about
+{
+    margin-left: 5px;
 }
 
 }

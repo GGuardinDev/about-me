@@ -37,4 +37,10 @@ document.getElementById("ni").addEventListener("click", () => {
 
 })
 
+document.getElementById("about-link").addEventListener("click", () => {
+
+    nav.showNav();
+
+})
+
 console.log("snapshot06")
