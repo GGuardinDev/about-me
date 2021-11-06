@@ -40,41 +40,46 @@ class NavBar{
 
 const nav = new NavBar();
 
-window.addEventListener("scroll", () => {
+const viewport = window.innerWidth;
 
-    nav.hideNav();
+if (viewport <= 425){
 
-})
+    window.addEventListener("scroll", () => {
 
-document.getElementById("ni").addEventListener("click", () => {
+        nav.hideNav();
 
-    nav.showNav();
+    })
 
-})
+    document.getElementById("ni").addEventListener("click", () => {
 
-document.getElementById("about-link").addEventListener("click", () => {
+        nav.showNav();
 
-    nav.showNav();
+    })
 
-})
+    document.getElementById("about-link").addEventListener("click", () => {
 
-document.getElementById("knowledge-link").addEventListener("click", () => {
+        nav.showNav();
 
-    nav.showNav();
+    })
 
-})
+    document.getElementById("knowledge-link").addEventListener("click", () => {
 
-document.getElementById("projects-link").addEventListener("click", () => {
+        nav.showNav();
 
-    nav.showNav();
+    })
 
-})
+    document.getElementById("projects-link").addEventListener("click", () => {
 
-document.getElementById("contact-link").addEventListener("click", () => {
+        nav.showNav();
 
-    nav.showNav();
+    })
 
-})
+    document.getElementById("contact-link").addEventListener("click", () => {
 
+        nav.showNav();
+
+    })
+
+}
 
 console.log("1.0.2")
