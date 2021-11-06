@@ -173,51 +173,129 @@ ul
 @media screen and (min-width: 800px)
 {
 
-html
+body
 {
     overflow-x: hidden;
 }
 
 #header
 {
-    color: white;
-    font-family: "Montserrat", serif;
+    text-decoration: none;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: space-between;
+    color: white;
+    font-family: "Montserrat", serif;
 }
 
 #h1-zone
 {
     position: sticky;
-    top: 0;
+    top: 0px;
     background-color: #0b0b0b;
     display: flex;
+    height: 70px;
+    width: 100%;
     justify-content: space-between;
-    height: 80px;
 }
 
 #title
 {
-    padding-top: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#ni
+{
+    display: none;
+}
+
+nav
+{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    margin-top: 15px;
+    font-size: 25px;
+    margin-right: 15px;
+    color: white;
+}
+
+section
+{
+    width: 90%;
+}
+
+a
+{
+    text-decoration: none;
     position: relative;
+    color: white;
+    margin-right: 25px;
+}
+
+.h2
+{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: "Montserrat", serif;
+}
+
+.p
+{
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    font-family: "Lato", serif;
+    font-size: 20px;
+}
+
+ul
+{
+    list-style: none;
+    margin-left: 45px;
+}
+
+li
+{
+    margin-top: 20px;
+    font-family: "Lato", serif;
+    font-size: 23px;
 }
 
 #fondo
 {
     width: 100%;
-    height: 90vh;
+    height: 700px;
 }
 
-#about
+#repositories-link
 {
-    
+    color: black;
+    font-family: "Lato", serif;
+    margin-left: 40px;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+#repositories-link:hover
+{
+    text-decoration: underline;
+}
+
+#contact
+{
+    margin-top: 40px;
 }
 
 .rsi
 {
-    width: 80px;
-    height: 100px;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 120px; 
 }
 
 }
